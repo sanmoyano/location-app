@@ -36,7 +36,7 @@ const NewPlace = ({ navigation }) => {
         <Text style={styles.title}>Nombre nueva ubicacion</Text>
         <TextInput
           style={styles.input}
-          placeholder="Nuevo Mexico, CDMX 12345"
+          placeholder="Cordoba, Argentina"
           onChangeText={onHandlerChangeText}
           value={text}
         />
