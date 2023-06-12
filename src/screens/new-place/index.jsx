@@ -44,7 +44,7 @@ const NewPlace = ({ navigation }) => {
         <LocationSelector onLocation={onLocation} />
         <Button
           disabled={!enableButton}
-          title="Grabar direccion"
+          title="Agregar direccion"
           color={colors.primary}
           onPress={onHandlerSubmit}
         />
